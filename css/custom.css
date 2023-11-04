@@ -1,6 +1,8 @@
-.main-panel {
+.main-panel,
+.content-wrapper {
 
     text-transform: capitalize;
+    display: none;
 }
 
 .resferralss-section {
@@ -42,7 +44,7 @@
 }
 
 .resourse {
-
+    margin: 11px 53px;
     width: 450px;
     padding: 15px 20px;
     background-color: #0D6EFD;
@@ -66,4 +68,13 @@
 
 .resourse-downd-link i {
     font-size: 20px;
+}
+
+.course-section{
+    width: 100%;
+}
+
+
+.play-img{
+    width: 20px;
 }
