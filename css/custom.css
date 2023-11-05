@@ -70,11 +70,40 @@
     font-size: 20px;
 }
 
-.course-section{
+.course-section {
     width: 100%;
 }
 
-
-.play-img{
+.play-img {
     width: 20px;
+}
+
+input[type="checkbox"] {
+    padding: 5px;
+
+}
+
+.gap {
+    gap: 20px;
+}
+
+.user-img {
+
+    text-align: center;
+    text-transform: capitalize;
+}
+
+textarea {
+    padding: 7px;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.racting-icons i {
+    color: #FFCD40;
 }
