@@ -33,17 +33,7 @@
 
 <body>
   <div class="modal-body">
-    <!-- popup box code bostrap5 -->
 
-
-    <!-- pouop box code  bostrap5 -->
-    <!-- <div class="resferralss-section">
-    <span>&times;</span>
-    <div class="copy-link">
-
-    </div>
-    <div class="social-icon"></div>
-  </div> -->
     <div class="container-scroller">
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
@@ -55,12 +45,12 @@
           </div>
           <div>
             <a class="navbar-brand brand-logo" href="index.html">
-              <!-- <img src="images/logo.svg" alt="logo" /> -->
-              <i class="mdi mdi-account-circle"></i>
-              <span>User Name</span>
+
+              <img src="./images/centerlogo.png" alt="">
+
             </a>
             <a class="navbar-brand brand-logo-mini" href="index.html">
-              <img src="images/logo-mini.svg" alt="logo" />
+              <img src="./images/centerlogo.png" alt="logo" />
             </a>
           </div>
         </div>
@@ -383,8 +373,7 @@
             </li>
             <li class="nav-item nav-category">learing resourse</li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
-                aria-controls="form-elements">
+              <a class="nav-link" href="payment.html">
                 <i class="menu-icon mdi mdi-card-text-outline"></i>
                 <span class="menu-title">Payment Status</span>
               </a>
@@ -392,15 +381,16 @@
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
                 <i class="menu-icon mdi mdi-call-made"></i>
-                <span class="menu-title">resferrals </span>
+                <span class="menu-title" data-bs-toggle="modal" data-bs-target="#staticBackdrop">resferrals </span>
 
               </a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              <a class="nav-link"   data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
                 <i class=" menu-icon mdi mdi-settings"></i>
-                <span class="menu-title" data-bs-toggle="modal" data-bs-target="#exampleModal">review</span>
+                <span class="menu-title" >review</span>
                 <!-- <i class="menu-arrow"></i> -->
               </a>
 
@@ -694,47 +684,41 @@
                       </form>
                     </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
-                  </div>
                 </div>
               </div>
             </div>
+            <!-- review section -->
 
             <!-- resferrals section  modal-->
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
+            <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">review</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">resferrals</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
-                    <div class="user-img">
-                      <form action="">
-                        <h6>are You happy to learn with us</h6>
-                        <p>share your review</p>
-
-                        <textarea required="" id="" cols="30" rows="5" placeholder="best teching thank you"></textarea>
-                        <p>rate us</p>
-                        <div class="social-icon">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                        </div>
-                        <button class="btn btn-primary mt-2">submit</button>
-
-                      </form>
+                  <div class="modal-body Center">
+                    <div class="resferrals-img">
+                      <img class="img-fluid" src="./images/referrals.jpg" alt="">
                     </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <form action="">
+                      <input type="text" name="" id="" placeholder="https://github.com/" readonly>
+                      <i class="fa-solid fa-copy"></i>
+                    </form>
+                    <div class="social-icon">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-linkedin"></i>
 
+                    </div>
+                    <div class="share-btn mt-3">
+                      <button class="btn btn-primary">Share Now</button>
+                    </div>
                   </div>
                 </div>
               </div>
