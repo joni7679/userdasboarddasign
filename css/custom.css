@@ -1,6 +1,11 @@
+* {
+    text-transform: capitalize;
+}
+
 :root {
 
     --blue: #0D6EFD;
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 
@@ -177,34 +182,59 @@ form input {
 
 /* payment status layout */
 
-.payment-shilp{
+.modal-body{
+    background-color: #F4F5F7;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+
+.payment-history-bar {
+    width: 425px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
+
+
+.payment-shilp {
     margin-top: 15px;
     width: 400px;
     padding: 10px 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 5px;
     font-size: 20px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
 }
 
-.fa-download{
+.fa-download {
     cursor: pointer;
     padding: 5px;
     border-radius: 5px;
 }
 
-.fa-download:hover{
-    
+.fa-download:hover {}
+
+
+.user-payment-status {
+    border: 1px solid green;
+    padding: 10px 15px;
+    width: 300px;
+
+
 }
 
-.payment{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 400px;
-    border: 2px solid red;
-    padding: 10px ;
+.pay-img {
+    width: 150px;
+
 }
