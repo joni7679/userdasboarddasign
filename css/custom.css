@@ -182,7 +182,7 @@ form input {
 
 /* payment status layout */
 
-.modal-body{
+.modal-body {
     background-color: #F4F5F7;
 }
 
@@ -214,7 +214,7 @@ form input {
     text-transform: capitalize;
     display: flex;
     align-items: center;
-    
+
 }
 
 .fa-download {
@@ -236,5 +236,67 @@ form input {
 
 .pay-img {
     width: 150px;
+
+}
+
+
+
+/* help center layout code */
+
+.help-center {
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /* align-items: center; */
+    
+    justify-content: center;
+}
+.input-box input[type="text"]{
+    width: 500px;
+}
+
+.input-box input[type="text"]:hover{
+    border: 1px solid gray;
+}
+.help-box {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.help-box h3{
+    font-size: 22px;
+}
+.help-box img {
+    width: 50px;
+    object-fit:cover;
+}
+
+.help-box  button{
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+/* payment form */
+
+.payment-section img{
+    width: 135px;
+}
+.padding{
+    padding: 35px;
+}
+.googlepay{
+    width: 83px !important;
+}
+
+
+/* help center media query */
+@media (max-width:566px){
+    .input-box input[type="text"]{
+        width: 300px;
+    }
 
 }
