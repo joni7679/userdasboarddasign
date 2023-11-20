@@ -475,22 +475,20 @@
                         <div class="payment-section">
                             <h5>Payment Methods</h5>
 
-                            <div id="wrapper">
-                                <p>Custom Radio Buttons</p>
-                                <label class="radio-button-container" disabled>One
-                                    <input type="radio" checked="checked" name="radio">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="radio-button-container">Two
-                                    <input type="radio" name="radio">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="radio-button-container">Three
-                                    <input type="radio" name="radio">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-
+                            <form action="#">
+                                <p>
+                                  <input type="radio" id="test1" name="radio-group" checked>
+                                  <label for="test1">Apple</label>
+                                </p>
+                                <p>
+                                  <input type="radio" id="test2" name="radio-group">
+                                  <label for="test2">Peach</label>
+                                </p>
+                                <p>
+                                  <input type="radio" id="test3" name="radio-group">
+                                  <label for="test3">Orange</label>
+                                </p>
+                              </form>
                         </div>
 
                     </div>

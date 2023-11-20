@@ -8,7 +8,12 @@
     --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-
+#dasboard-icon{
+    font-size: 22px;
+    line-height: 1;
+    margin-right: 1rem;
+    color: #484848;
+}
 .main-panel,
 .content-wrapper {
 
@@ -56,7 +61,8 @@
 
 .resourse {
     margin: 11px 53px;
-    width: 450px;
+    width: 80%;
+
     padding: 15px 20px;
     background-color: #0D6EFD;
     color: #fff;
@@ -134,7 +140,7 @@ form input {
     border-radius: 8px;
     border: 1px solid gray;
     outline: none;
-    margin: 15px 0;
+    
 }
 
 .Center {
@@ -194,7 +200,9 @@ form input {
     padding: 10px;
     text-transform: capitalize;
 }
-
+.payment p{
+    font-size: 18px;
+}
 
 .payment-history-bar {
     width: 425px;
@@ -243,17 +251,26 @@ form input {
 
 /* help center layout code */
 
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
 .help-center {
 
     width: 100%;
     height: 300px;
     display: flex;
-    /* align-items: center; */
-    
+    align-items: center;
     justify-content: center;
 }
-.input-box input[type="text"]{
-    width: 500px;
+.input-box{
+   max-width: 500px;
+
+
 }
 
 .input-box input[type="text"]:hover{
@@ -282,15 +299,6 @@ form input {
 }
 /* payment form */
 
-.payment-section img{
-    width: 135px;
-}
-.padding{
-    padding: 35px;
-}
-.googlepay{
-    width: 83px !important;
-}
 
 
 /* help center media query */
@@ -300,3 +308,5 @@ form input {
     }
 
 }
+
+/*  */
