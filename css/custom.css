@@ -72,16 +72,6 @@
     border-radius: 20px;
 }
 
-.resourse-downd-link {
-    height: 50px;
-    width: 50px;
-    background-color: #0f3e85;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    justify-content: center;
-}
 
 .resourse-downd-link i {
     font-size: 20px;
@@ -192,47 +182,6 @@ form input {
     background-color: #F4F5F7;
 }
 
-.payment {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 400px;
-    padding: 10px;
-    text-transform: capitalize;
-}
-.payment p{
-    font-size: 18px;
-}
-
-.payment-history-bar {
-    width: 425px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: var(--box-shadow);
-}
-
-
-.payment-shilp {
-    margin-top: 15px;
-    width: 400px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-
-}
-
-.fa-download {
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.fa-download:hover {}
-
 
 .user-payment-status {
     border: 1px solid green;
@@ -285,13 +234,12 @@ form {
     flex-direction: column;
 }
 
-.help-box h3{
-    font-size: 22px;
+
+.help-box i{
+    font-size: 25px;
+    cursor: pointer;
 }
-.help-box img {
-    width: 50px;
-    object-fit:cover;
-}
+
 
 .help-box  button{
     text-transform: capitalize;

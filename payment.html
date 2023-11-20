@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>User Dashboard </title>
+    <title>User payment status </title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
@@ -381,24 +381,29 @@
                         </li>
                         <li class="nav-item nav-category">UI Elements</li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="index.html">
+                            <a class="nav-link" href="index.html">
                                 <i class="menu-icon mdi mdi-floor-plan"></i>
                                 <span class="menu-title">course overview</span>
                                 <!-- <i class="menu-arrow"></i> -->
                             </a>
 
                         </li>
-                        
+
                         <li class="nav-item">
-                            <a class="nav-link"  href="payment.html">
+                            <a class="nav-link" href="payment.html">
                                 <i class="ri-wechat-pay-line" id="dasboard-icon"></i>
                                 <span class="menu-title">Payment Status</span>
                             </a>
-
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop">
-                            <i class="ri-share-line" id="dasboard-icon"></i>
+                            <a class="nav-link" href="helpcenter.html">
+                                <i class="ri-customer-service-line" id="dasboard-icon"></i>
+                                <span class="menu-title">Support Center</span>
+                                <!-- <i class="menu-arrow"></i> -->
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <i class="ri-share-line" id="dasboard-icon"></i>
                                 <span class="menu-title">resferrals </span>
 
                             </a>
@@ -406,43 +411,34 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false"
-                            aria-controls="tables">
-                            <i class="ri-chat-1-line" id="dasboard-icon"></i>
-                            <span class="menu-title" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">review</span>
-                            <!-- <i class="menu-arrow"></i> -->
-                        </a>
-
-
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  href="helpcenter.html">
-                                <i class="ri-customer-service-line" id="dasboard-icon"></i>
-                                <span class="menu-title">Support Center</span>
+                                aria-controls="tables">
+                                <i class="ri-chat-1-line" id="dasboard-icon"></i>
+                                <span class="menu-title" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">review</span>
                                 <!-- <i class="menu-arrow"></i> -->
                             </a>
 
 
 
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false"
-                            aria-controls="tables">
-                            <i class="ri-list-settings-line" id="dasboard-icon"></i>
-                            <span class="menu-title">Settings</span>
-                            <!-- <i class="menu-arrow"></i> -->
-                        </a>
+                                aria-controls="tables">
+                                <i class="ri-list-settings-line" id="dasboard-icon"></i>
+                                <span class="menu-title">Settings</span>
+                                <!-- <i class="menu-arrow"></i> -->
+                            </a>
 
 
                         <li class="nav-item nav-category">pages</li>
                         <li class="nav-item">
                             <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false"
-                            aria-controls="auth">
-                            <i class="ri-user-line" id="dasboard-icon"></i>
-                            <span class="menu-title">User Pages</span>
-                            <i class="menu-arrow"></i>
-                        </a>
+                                aria-controls="auth">
+                                <i class="ri-user-line" id="dasboard-icon"></i>
+                                <span class="menu-title">User Pages</span>
+                                <i class="menu-arrow"></i>
+                            </a>
                             <div class="collapse" id="auth">
                                 <ul class="nav flex-column sub-menu">
                                     <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login
@@ -450,9 +446,9 @@
                                 </ul>
                             </div>
                             <div class="collapse" id="auth">
-                                
+
                             </div>
-                           
+
                         </li>
 
                     </ul>
@@ -466,13 +462,17 @@
                         <div class="col-lg-6 col-md-12">
                             <div class="card card-body">
                                 <h3>Payment Report</h3>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-12 mt-2">
+                                        <p class="h4"> 3 month due</p>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 mt-2">
+                                        <p class="h4"> rs : 2000</p>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 mt-2">
+                                        <button class="btn btn-primary text-capitalize">make payment</button>
+                                    </div>
 
-                                <div class="payment">
-
-                                    <p> 3 month due</p>
-                                    <p> rs : 2000</p>
-
-                                    <button class="btn btn-primary text-capitalize">make payment</button>
                                 </div>
                             </div>
 
@@ -497,7 +497,7 @@
                                                         Print
                                                         <i class="ti-printer btn-icon-append"></i>
                                                     </button></td>
-                                             
+
                                             </tr>
                                             <tr>
                                                 <td>32 feb</td>
@@ -507,7 +507,7 @@
                                                         Print
                                                         <i class="ti-printer btn-icon-append"></i>
                                                     </button></td>
-                                                
+
                                             </tr>
                                             <tr>
                                                 <td>32 march</td>
@@ -517,7 +517,7 @@
                                                         Print
                                                         <i class="ti-printer btn-icon-append"></i>
                                                     </button></td>
-                                               
+
                                             </tr>
                                             <tr>
                                                 <td>32 april</td>
@@ -527,7 +527,7 @@
                                                         Print
                                                         <i class="ti-printer btn-icon-append"></i>
                                                     </button></td>
-                                                
+
                                             </tr>
                                             <tr>
                                                 <td>32 may</td>
@@ -537,7 +537,7 @@
                                                         Print
                                                         <i class="ti-printer btn-icon-append"></i>
                                                     </button></td>
-                                               
+
                                             </tr>
                                         </tbody>
                                     </table>
@@ -545,7 +545,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 col-md-12">
+                        <!-- <div class="col-lg-6 col-md-12">
                             <div class="d-flex  align-items-center justify-content-between ">
                                 <div class="card card-body">
                                     <h5>your total payment</h5>
@@ -554,7 +554,7 @@
                                     <h5> rs:2500</h5>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
