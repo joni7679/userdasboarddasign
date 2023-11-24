@@ -157,11 +157,11 @@
                 <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
 
-                <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2" ></i> My
+                <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My
                   Profile <span class="badge badge-pill badge-danger">1</span></a>
-                <a class="dropdown-item"  href="index.html"><i
+                <a class="dropdown-item" href="editperofile.html"><i
                     class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i>
-                  My Course</a>
+                  Edit Perofile</a>
 
                 <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
               </div>
@@ -362,7 +362,7 @@
                 <span class="menu-title">Dashboard</span>
               </a>
             </li>
-            <li class="nav-item nav-category">UI Elements</li>
+            <li class="nav-item nav-category">for user</li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">
                 <i class="menu-icon mdi mdi-floor-plan"></i>
@@ -371,55 +371,50 @@
               </a>
 
             </li>
-           
+
             <li class="nav-item">
-              <a class="nav-link"  href="payment.html">
+              <a class="nav-link" href="payment.html">
                 <i class="ri-wechat-pay-line" id="dasboard-icon"></i>
                 <span class="menu-title">Payment Status</span>
               </a>
-              <li class="nav-item">
-                <a class="nav-link"  href="helpcenter.html">
-                  <i class="ri-customer-service-line" id="dasboard-icon"></i>
-                  <span class="menu-title">Support Center</span>
-                  <!-- <i class="menu-arrow"></i> -->
-              </a>
-              </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop">
-              <i class="ri-share-line" id="dasboard-icon"></i>
-                  <span class="menu-title">resferrals </span>
+              <a class="nav-link" href="helpcenter.html">
+                <i class="ri-customer-service-line" id="dasboard-icon"></i>
+                <span class="menu-title">Support Center</span>
+                <!-- <i class="menu-arrow"></i> -->
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="ri-share-line" id="dasboard-icon"></i>
+                <span class="menu-title">resferrals </span>
 
               </a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false"
-              aria-controls="tables">
-              <i class="ri-chat-1-line" id="dasboard-icon"></i>
-              <span class="menu-title" data-bs-toggle="modal"
-                  data-bs-target="#exampleModal">review</span>
-              <!-- <i class="menu-arrow"></i> -->
-          </a>
+              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                <i class="ri-chat-1-line" id="dasboard-icon"></i>
+                <span class="menu-title" data-bs-toggle="modal" data-bs-target="#exampleModal">review</span>
+                <!-- <i class="menu-arrow"></i> -->
+              </a>
             </li>
-           
+
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false"
-              aria-controls="tables">
-              <i class="ri-list-settings-line" id="dasboard-icon"></i>
-              <span class="menu-title">Settings</span>
-              <!-- <i class="menu-arrow"></i> -->
-          </a>
+              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                <i class="ri-list-settings-line" id="dasboard-icon"></i>
+                <span class="menu-title">Settings</span>
+                <!-- <i class="menu-arrow"></i> -->
+              </a>
 
 
             <li class="nav-item nav-category">pages</li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false"
-                                aria-controls="auth">
-                                <i class="ri-user-line" id="dasboard-icon"></i>
-                                <span class="menu-title">User Pages</span>
-                                <i class="menu-arrow"></i>
-                            </a>
+              <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <i class="ri-user-line" id="dasboard-icon"></i>
+                <span class="menu-title">User Pages</span>
+                <i class="menu-arrow"></i>
+              </a>
               <div class="collapse" id="auth">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
@@ -438,6 +433,130 @@
             </li>
 
           </ul>
+
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">
+                <i class="mdi mdi-grid-large menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item nav-category">for Admin</li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="true" aria-controls="ui-basic">
+                  <i class="menu-icon mdi mdi-floor-plan"></i>
+                  <span class="menu-title">Course</span>
+                  <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse show" id="ui-basic" style="">
+                  <ul class="nav flex-column sub-menu">
+                      <li class="nav-item"> <a class="nav-link" href="#">Add Course</a></li>
+                      <li class="nav-item"> <a class="nav-link" href="#">List Course</a></li>
+                      
+                  </ul>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+                <i class="menu-icon mdi mdi-card-text-outline"></i>
+                <span class="menu-title">Student</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="form-elements" style="">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Add Student</a></li>
+                </ul>
+            </div>
+            <div class="collapse" id="form-elements" style="">
+              <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Student List</a></li>
+              </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+              <i class="menu-icon mdi mdi-chart-line"></i>
+              <span class="menu-title">Income/Payment</span>
+              <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="charts" style="">
+              <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Addmission</a></li>
+              </ul>
+          </div>
+          <div class="collapse" id="charts" style="">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Monthy Payment</a></li>
+            </ul>
+        </div>
+      </li>
+            <li class="nav-item">
+              <a class="nav-link" href="helpcenter.html">
+                <i class="ri-customer-service-line" id="dasboard-icon"></i>
+                <span class="menu-title">Support Center</span>
+                <!-- <i class="menu-arrow"></i> -->
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+                  <i class="menu-icon mdi mdi-layers-outline"></i>
+                  <span class="menu-title">success Student</span>
+                  <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="icons" style="">
+                  <ul class="nav flex-column sub-menu">
+                      <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Add Student</a></li>
+                  </ul>
+              </div>
+              <div class="collapse" id="icons" style="">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">List Student</a></li>
+                </ul>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                <i class="ri-chat-1-line" id="dasboard-icon"></i>
+                <span class="menu-title" data-bs-toggle="modal" data-bs-target="#exampleModal">review</span>
+                <!-- <i class="menu-arrow"></i> -->
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                <i class="ri-list-settings-line" id="dasboard-icon"></i>
+                <span class="menu-title">Settings</span>
+                <!-- <i class="menu-arrow"></i> -->
+              </a>
+
+
+            </li>
+            <li class="nav-item nav-category">pages</li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <i class="ri-user-line" id="dasboard-icon"></i>
+                <span class="menu-title">User Pages</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="auth">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+                </ul>
+              </div>
+              <div class="collapse" id="auth">
+                <!-- <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login out </a></li>
+              </ul> -->
+              </div>
+              <!-- <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Edit Perofile</a></li>
+              </ul>
+            </div> -->
+            </li>
+
+          </ul>
+
         </nav>
         <!-- dash design star here -->
         <div class="row  course-section">

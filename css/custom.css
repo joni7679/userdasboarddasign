@@ -255,7 +255,13 @@ form {
 
 /* payment form */
 
+/* edit perofile */
 
+.edit-peofile{
+    width: 800px;
+    border: 1px solid red;
+    margin: 25px auto;
+}
 
 /* help center media query */
 @media (max-width:566px) {
