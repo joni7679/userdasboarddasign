@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>User Dashboard </title>
+  <title>monthy-payment form</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/feather/feather.css">
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
@@ -367,8 +367,11 @@
               <a class="nav-link collapsed" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
                   <i class="menu-icon mdi mdi-floor-plan"></i>
                   <span class="menu-title">course overview</span>
+                  
               </a>
+             
           </li>
+
             <li class="nav-item">
               <a class="nav-link" href="payment.html">
                 <i class="ri-wechat-pay-line dasboard-icon"></i>
@@ -402,9 +405,15 @@
                 <i class="ri-list-settings-line dasboard-icon"></i>
                 <span class="menu-title">Settings</span>
                 <!-- <i class="menu-arrow"></i> -->
-              </a>  
+              </a>
+          </ul>
+
+          <ul class="nav">
+           
             <li class="nav-item nav-category">for Admin</li>
             <li class="nav-item">
+
+
             </li>
             <li class="nav-item">
               <a class="nav-link collapsed" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
@@ -481,215 +490,49 @@
           </UL>
         </nav>
         <!-- dash design star here -->
-        <div class="row  course-section">
-          <div class="col-lg-12">
-            <div class="p-5">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                    type="button" role="tab" aria-controls="home" aria-selected="true">course overview</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                    role="tab" aria-controls="profile" aria-selected="false">course resourse</button>
-                </li>
-
-              </ul>
-
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-
-                  <!-- course overview section -->
-
-                  <div class="faq-section">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            <p>course content</p>
-                          </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="video-box">
-                              <p>course title </p>
-
-                              <div class="d-flex gap">
-                                <input type="checkbox" id="">
-                                <img class="play-img" src="./images/play.png" alt="">
-                                <span>20 min 20s</span>
-                              </div>
-                            </div>
-                          </div>
+        <div class="container py-5 monthy-payment">
+            <div class="row">
+                <div class="card card-body">
+                    <h5 class="mb-3">Student payment form</h5>
+                    <div class="form-group">
+                        <label for="exampleSelectGender">plase select the Student</label>
+                          <select class="form-control" id="exampleSelectGender">
+                            <option>Select your option</option>
+                            <option>Student id_0001</option>
+                            <option>Student id_0002</option>
+                            <option>Student id_0003</option>
+                            <option>Student id_0004</option>
+                            <option>Student id_0005</option>
+                          </select>
                         </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            <p>course content</p>
-                          </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-
-                            <div class="video-box">
-                              <p>course title </p>
-
-                              <div class="d-flex gap">
-                                <input type="checkbox" id="">
-                                <img class="play-img" src="./images/play.png" alt="">
-                                <span>20 min 20s</span>
-                              </div>
+                        <div class="form-group">
+                            <label for="exampleSelectGender">payment of Month</label>
+                            <input type="number" class="form-control"  placeholder="Your Months">
                             </div>
-
-                          </div>
-                        </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                            <p class="tex-size"> course content</p>
-                          </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="video-box">
-                              <p>course title </p>
-
-                              <div class="d-flex gap">
-                                <input type="checkbox" id="">
-                                <img class="play-img" src="./images/play.png" alt="">
-                                <span>20 min 20s</span>
-                              </div>
+                            <div class="form-group">
+                              <label for="exampleInputName1">Due Ammount</label>
+                              <input type="number" class="form-control"  placeholder=" Due Ammount">
                             </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingfour">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsefour" aria-expanded="false"
-                            aria-controls="flush-collapsefour">
-                            <p>course content</p>
-                          </button>
-                        </h2>
-                        <div id="flush-collapsefour" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="video-box">
-                              <p>course title </p>
-
-                              <div class="d-flex gap">
-                                <input type="checkbox" id="">
-                                <img class="play-img" src="./images/play.png" alt="">
-                                <span>20 min 20s</span>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Ammount</label>
+                                <input type="number" class="form-control"  placeholder="Ammount">
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingfive">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsefive" aria-expanded="false"
-                            aria-controls="flush-collapsefive">
-                            <p>course content</p>
-                          </button>
-                        </h2>
-                        <div id="flush-collapsefive" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-
-                            <div class="video-box">
-                              <p>course title </p>
-
-                              <div class="d-flex gap">
-                                <input type="checkbox" id="">
-                                <img class="play-img" src="./images/play.png" alt="">
-                                <span>20 min 20s</span>
+                            <div class="form-group">
+                                <label for="exampleInputName1">payment date</label>
+                                <input type="date" class="form-control" placeholder="recive ammount">
                               </div>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingsix">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
-                            <p class="tex-size"> course content</p>
-                          </button>
-                        </h2>
-                        <div id="flush-collapsesix" class="accordion-collapse collapse"
-                          aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="video-box">
-                              <p>course title </p>
-
-                              <div class="d-flex gap">
-                                <input type="checkbox" id="">
-                                <img class="play-img" src="./images/play.png" alt="">
-                                <span>20 min 20s</span>
+                              <div class="btn">
+                                <button type="button" class="btn btn-primary btn-icon-text">
+                                    <i class="ti-file btn-icon-prepend"></i>
+                                    Pay
+                                  </button>
+                                  <button type="button" class="btn btn-success btn-icon-text">                                        
+                                    Cancel
+                                  </button>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-
-
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
-                  <!-- course content section -->
-                  <div class="row">
-
-                    <div class="col-md-12 ">
-                      <div class="resourse">
-                        <span>course content resourse</span>
-                        <div class="resourse-downd-link"><i class="mdi mdi-arrow-down-drop-circle
-            "></i></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12 ">
-                      <div class="resourse">
-                        <span>course content resourse</span>
-                        <div class="resourse-downd-link"><i class="mdi mdi-arrow-down-drop-circle
-            "></i></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12 ">
-                      <div class="resourse">
-                        <span>course content resourse</span>
-                        <div class="resourse-downd-link"><i class="mdi mdi-arrow-down-drop-circle
-            "></i></div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-                </div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-              </div>
             </div>
-          </div>
         </div>
-
-
-
         <!-- review section -->
         <div class="row">
           <div class="col-lg-12">
@@ -753,7 +596,6 @@
                       <i class="fa-brands fa-whatsapp"></i>
                       <i class="fa-brands fa-instagram"></i>
                       <i class="fa-brands fa-linkedin"></i>
-
                     </div>
                     <div class="share-btn mt-3">
                       <button class="btn btn-primary">Share Now</button>
@@ -766,7 +608,7 @@
           </div>
         </div>
 
-        <!-- review section -->
+       
 
         <!-- dasboard design end here -->
 
