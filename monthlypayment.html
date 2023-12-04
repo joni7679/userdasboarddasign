@@ -356,20 +356,22 @@
         <!-- partial:partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">
-                <i class="mdi mdi-grid-large menu-icon"></i>
-                <span class="menu-title">Dashboard</span>
+                  <i class="mdi mdi-grid-large menu-icon"></i>
+                  <span class="menu-title">Dashboard</span>
               </a>
-            </li>
+          </li>
             <li class="nav-item nav-category">for user</li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">
-                <i class="menu-icon mdi mdi-floor-plan"></i>
-                <span class="menu-title">course overview</span>
-                <!-- <i class="menu-arrow"></i> -->
+              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
+                  <i class="menu-icon mdi mdi-floor-plan"></i>
+                  <span class="menu-title">course overview</span>
+                  
               </a>
-            </li>
+             
+          </li>
+
             <li class="nav-item">
               <a class="nav-link" href="payment.html">
                 <i class="ri-wechat-pay-line dasboard-icon"></i>
@@ -407,12 +409,7 @@
           </ul>
 
           <ul class="nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">
-                <i class="mdi mdi-grid-large menu-icon"></i>
-                <span class="menu-title">Dashboard</span>
-              </a>
-            </li>
+           
             <li class="nav-item nav-category">for Admin</li>
             <li class="nav-item">
 
@@ -437,7 +434,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#" aria-expanded="false"
+              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#charts" aria-expanded="false"
                 aria-controls="charts">
                 <i class="ri-wechat-pay-line dasboard-icon"></i>
                 <span class="menu-title">Income/Payment</span>
@@ -446,7 +443,7 @@
               <div class="collapse" id="charts">
                 <ul class="nav flex-column sub-menu">
 
-                  <li class="nav-item"> <a class="nav-link" href="#">Addmission</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Addmission</a></li>
                 </ul>
               </div>
               <div class="collapse" id="charts">
@@ -471,17 +468,19 @@
               </a>
               <div class="collapse" id="icons">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="editperofile.html">Add Student</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Add Student</a></li>
                 </ul>
               </div>
               <div class="collapse" id="icons">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="liststudent.html">List Student</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">List Student</a></li>
                 </ul>
               </div>
             </li>
+
+
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="tables">
+              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
                 <i class="ri-list-settings-line dasboard-icon"></i>
                 <span class="menu-title">Settings</span>
 
@@ -491,8 +490,6 @@
           </UL>
         </nav>
         <!-- dash design star here -->
-       
-
         <div class="container py-5 monthy-payment">
             <div class="row">
                 <div class="card card-body">
@@ -501,78 +498,41 @@
                         <label for="exampleSelectGender">plase select the Student</label>
                           <select class="form-control" id="exampleSelectGender">
                             <option>Select your option</option>
-                            <option>Student id_250</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-                            <option>Student id_251</option>
-
-
+                            <option>Student id_0001</option>
+                            <option>Student id_0002</option>
+                            <option>Student id_0003</option>
+                            <option>Student id_0004</option>
+                            <option>Student id_0005</option>
                           </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleSelectGender">payment of year</label>
-                              <select class="form-control" id="exampleSelectGender">
-                                <option>Select your option</option>
-                                <option>2022</option>
-                                <option>2023</option>
-                              </select>
-                            </div>  
-                        <div class="form-group">
                             <label for="exampleSelectGender">payment of Month</label>
-                              <select class="form-control" id="exampleSelectGender">
-                                <option>Select your option</option>
-                                <option>jan</option>
-                                <option>feb</option>
-                                <option>mec</option>
-                                <option>april</option>
-                                <option>may</option>
-                                <option>june</option>
-                                <option>july</option>
-                                <option>augest</option>
-                                <option>september</option>
-                                <option>octember</option>
-                                <option>november</option>
-                                <option>december</option>
-                              </select>
+                            <input type="number" class="form-control"  placeholder="Your Months">
                             </div>
-
                             <div class="form-group">
-                                <label for="exampleInputName1">recive ammount</label>
-                                <input type="number" class="form-control" id="exampleInputName1" placeholder="recive ammount">
+                              <label for="exampleInputName1">Due Ammount</label>
+                              <input type="number" class="form-control"  placeholder=" Due Ammount">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Ammount</label>
+                                <input type="number" class="form-control"  placeholder="Ammount">
                               </div>
                             <div class="form-group">
                                 <label for="exampleInputName1">payment date</label>
-                                <input type="date" class="form-control" id="exampleInputName1" placeholder="recive ammount">
+                                <input type="date" class="form-control" placeholder="recive ammount">
                               </div>
                               <div class="btn">
                                 <button type="button" class="btn btn-primary btn-icon-text">
                                     <i class="ti-file btn-icon-prepend"></i>
-                                    Submit
+                                    Pay
                                   </button>
-                                  <button type="button" class="btn btn-success btn-icon-text">
-                                                                              
-                                    cancel
+                                  <button type="button" class="btn btn-success btn-icon-text">                                        
+                                    Cancel
                                   </button>
                               </div>
                 </div>
             </div>
         </div>
-
-
-
         <!-- review section -->
         <div class="row">
           <div class="col-lg-12">
@@ -636,7 +596,6 @@
                       <i class="fa-brands fa-whatsapp"></i>
                       <i class="fa-brands fa-instagram"></i>
                       <i class="fa-brands fa-linkedin"></i>
-
                     </div>
                     <div class="share-btn mt-3">
                       <button class="btn btn-primary">Share Now</button>
