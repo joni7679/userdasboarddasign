@@ -357,10 +357,11 @@
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="index.html" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                   <i class="mdi mdi-grid-large menu-icon"></i>
                   <span class="menu-title">Dashboard</span>
               </a>
+          
           </li>
             <li class="nav-item nav-category">for user</li>
             <li class="nav-item">
@@ -393,9 +394,9 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-controls="tables">
                 <i class="ri-chat-1-line dasboard-icon"></i>
-                <span class="menu-title" data-bs-toggle="modal" data-bs-target="#exampleModal">review</span>
+                <span class="menu-title" >review</span>
                 <!-- <i class="menu-arrow"></i> -->
               </a>
             </li>
@@ -406,9 +407,7 @@
                 <span class="menu-title">Settings</span>
                 <!-- <i class="menu-arrow"></i> -->
               </a>
-          </ul>
-
-          <ul class="nav">
+         
            
             <li class="nav-item nav-category">for Admin</li>
             <li class="nav-item">
@@ -443,7 +442,7 @@
               <div class="collapse" id="charts">
                 <ul class="nav flex-column sub-menu">
 
-                  <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Addmission</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="editperofile.html">Addmission</a></li>
                 </ul>
               </div>
               <div class="collapse" id="charts">
@@ -714,7 +713,7 @@
                   </div>
                   <div class="modal-body">
                     <div class="user-img">
-                      <form action="">
+                      <form method="get" class="review-form">
                         <h6>are You happy to learn with us</h6>
                         <p>share your review</p>
 
