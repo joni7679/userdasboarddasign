@@ -13,6 +13,10 @@ a:hover {
   text-decoration: none;
 }
 
+.login-btn {
+  width: 80% !important;
+}
+
 h1,
 h2,
 h3,
@@ -297,9 +301,10 @@ h6 {
   border-radius: 5px;
 }
 
-.login-logo{
+.login-logo {
   width: 80px;
 }
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -1293,6 +1298,22 @@ section {
     padding: 0;
   }
 }
+
+
+/* placement silder img  */
+
+.placement-slid img {
+  max-width: 210px;
+  height: 100px;
+  margin: auto;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px;
+  border-radius: 9px;
+  margin-top: 15px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Contact
