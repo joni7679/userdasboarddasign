@@ -1,5 +1,4 @@
-------------------------------------------------------*/
-body {
+------------------------------------------------------*/ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -291,6 +290,16 @@ h6 {
   visibility: visible;
 }
 
+.slect-option {
+  border: 1px solid gray;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.login-logo{
+  width: 80px;
+}
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -673,10 +682,11 @@ section {
   position: relative;
 }
 
-.course-box{
-  width:350px ;
+.course-box {
+  width: 350px;
 
 }
+
 .services .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
