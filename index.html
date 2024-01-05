@@ -983,7 +983,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form action="./admin/admin.html">
+          <form id="loginPage" method="get" onsubmit="loginForm()">
             <div class="d-flex align-items-center justify-content-center">
               <select class="slect-option">
                 <option value="">slect Your Option</option>
@@ -993,8 +993,10 @@
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Email </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email" required>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email" id="email">
+
+              <p class="mt-2" id="emaill"></p>
 
             </div>
             <div class="form-group mt-3">
@@ -1003,10 +1005,7 @@
             </div>
 
             <div class="d-flex align-items-center justify-content-end mt-3"><a href="">Forget Password ?</a></div>
-            <!-- <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div> -->
+
             <div class="mt-3 d-flex justify-content-center align-items-center">
               <button type="submit " class="btn btn-primary login-btn">Login</button>
             </div>

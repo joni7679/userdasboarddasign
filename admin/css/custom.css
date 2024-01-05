@@ -20,15 +20,17 @@ textarea {
 
  */
 
- .livewebiner-img{
+.livewebiner-img {
     width: 200px;
-   
- }
-.livewebiner-img img{
+
+}
+
+.livewebiner-img img {
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
+
 .main-panel,
 .content-wrapper {
 
@@ -72,6 +74,7 @@ textarea {
     margin-right: 1rem;
     color: #484848;
 }
+
 .resourse {
     margin: 11px 53px;
     width: 80%;
@@ -131,12 +134,14 @@ form input {
     outline: none;
 
 }
+
 .Center {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
 .social-icon i {
 
     padding: 8px;
@@ -163,6 +168,7 @@ form input {
 .social-icon i:nth-child(4) {
     color: var(--blue);
 }
+
 .fa-copy {
     font-size: 20px;
     margin: 0 10px;
@@ -231,7 +237,7 @@ form {
 
 .help-box i {
     font-size: 25px;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 .help-box button {
@@ -273,6 +279,12 @@ form {
     object-fit: cover;
 }
 
+/* errormsg */
+.error {
+    color: red;
+    margin-top: 8px;
+}
+
 /* motthly payment  */
 .monthy-payment,
 .student-list {
@@ -288,15 +300,15 @@ form {
 /* student list table  */
 
 @media (max-width:980px) {
- #excel-icon{
-    margin-top: 15px;
- }
+    #excel-icon {
+        margin-top: 15px;
+    }
 }
 
 @media (max-width:750px) {
-    #excel-icon{
+    #excel-icon {
         margin-top: 0;
-     }
+    }
 }
 
 /* help center media query */

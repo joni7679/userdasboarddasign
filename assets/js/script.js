@@ -38,3 +38,20 @@ $('.placement-silder').slick({
         // instead of a settings object
     ]
 });
+
+
+//login form validation
+let loginPage = document.querySelector("#loginpage");
+console.log(loginPage)
+
+function loginForm() {
+    let email = document.querySelector("#email").value;
+    let emilMsg = document.querySelector("#emaill");
+
+    if (email === "") {
+
+        emilMsg.innerHTML = "*this filled is required";
+        alert("this blank")
+    }
+
+}
