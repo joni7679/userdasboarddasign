@@ -357,35 +357,36 @@
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">
-                  <i class="mdi mdi-grid-large menu-icon"></i>
-                  <span class="menu-title">Dashboard</span>
+              <a class="nav-link" href="index.html" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
+                aria-controls="ui-basic">
+                <i class="mdi mdi-grid-large menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
               </a>
-          </li>
+
+            </li>
             <li class="nav-item nav-category">for user</li>
             <li class="nav-item">
-              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
-                  <i class="menu-icon mdi mdi-floor-plan"></i>
-                  <span class="menu-title">course overview</span>
-                  
+              <a class="nav-link collapsed" data-bs-toggle="collapse2" href="#" aria-expanded="false"
+                aria-controls="ui-basic">
+                <i class="menu-icon mdi mdi-floor-plan"></i>
+                <span class="menu-title">course overview</span>
               </a>
-             
-          </li>
-
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="payment.html">
+              <a class="nav-link" href="payment.html" href="#payment" aria-expanded="false" aria-controls="payment">
                 <i class="ri-wechat-pay-line dasboard-icon"></i>
                 <span class="menu-title">Payment Status</span>
               </a>
             <li class="nav-item">
-              <a class="nav-link" href="helpcenter.html">
+              <a class="nav-link" href="helpcenter.html" href="#support" aria-expanded="false" aria-controls="support">
                 <i class="ri-customer-service-line dasboard-icon"></i>
                 <span class="menu-title">Support Center</span>
-                <!-- <i class="menu-arrow"></i> -->
+
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#resferrals"
+                aria-expanded="false" aria-controls="resferrals">
                 <i class="ri-share-line dasboard-icon"></i>
                 <span class="menu-title">resferrals </span>
 
@@ -393,10 +394,11 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-controls="tables"
+                href="#review" aria-expanded="false" aria-controls="review">
                 <i class="ri-chat-1-line dasboard-icon"></i>
-                <span class="menu-title" data-bs-toggle="modal" data-bs-target="#exampleModal">review</span>
-                <!-- <i class="menu-arrow"></i> -->
+                <span class="menu-title">review</span>
+
               </a>
             </li>
 
@@ -404,38 +406,32 @@
               <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
                 <i class="ri-list-settings-line dasboard-icon"></i>
                 <span class="menu-title">Settings</span>
-                <!-- <i class="menu-arrow"></i> -->
-              </a>
-          </ul>
 
-          <ul class="nav">
-           
+              </a>
             <li class="nav-item nav-category">for Admin</li>
             <li class="nav-item">
-
-
             </li>
             <li class="nav-item">
-              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
-                aria-controls="form-elements">
+              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#Student" aria-expanded="false"
+                aria-controls="Student">
                 <i class="menu-icon mdi mdi-card-text-outline"></i>
                 <span class="menu-title">Student</span>
                 <i class="menu-arrow"></i>
               </a>
-              <div class="collapse" id="form-elements">
+              <div class="collapse" id="Student">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item"><a class="nav-link" href="editperofile.html">Add Student</a></li>
                 </ul>
               </div>
-              <div class="collapse" id="form-elements">
+              <div class="collapse" id="Student">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item"><a class="nav-link" href="liststudent.html">Student List</a></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#charts" aria-expanded="false"
-                aria-controls="charts">
+              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#Income" aria-expanded="false"
+                aria-controls="Income">
                 <i class="ri-wechat-pay-line dasboard-icon"></i>
                 <span class="menu-title">Income/Payment</span>
                 <i class="menu-arrow"></i>
@@ -446,9 +442,10 @@
                   <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Addmission</a></li>
                 </ul>
               </div>
-              <div class="collapse" id="charts">
+              <div class="collapse" id="Income">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="monthlypayment.html">Monthy Payment</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="monthlypayment.html">Monthy
+                      Payment</a></li>
                 </ul>
               </div>
             </li>
@@ -460,78 +457,77 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#icons" aria-expanded="false"
-                aria-controls="icons">
+              <a class="nav-link collapsed" data-bs-toggle="collapse" href="#successStudent" aria-expanded="false"
+                aria-controls="successStudent">
                 <i class="menu-icon mdi mdi-layers-outline"></i>
                 <span class="menu-title">success Student</span>
                 <i class="menu-arrow"></i>
               </a>
-              <div class="collapse" id="icons">
+              <div class="collapse" id="successStudent">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Add Student</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="editperofile.html">Add
+                      Student</a></li>
                 </ul>
               </div>
-              <div class="collapse" id="icons">
+              <div class="collapse" id="successStudent">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">List Student</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="liststudent.html">List
+                      Student</a></li>
                 </ul>
               </div>
             </li>
-
-
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              <a class="nav-link" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="tables">
                 <i class="ri-list-settings-line dasboard-icon"></i>
                 <span class="menu-title">Settings</span>
 
               </a>
             </li>
-
           </UL>
         </nav>
         <!-- dash design star here -->
         <div class="container py-5 monthy-payment">
-            <div class="row">
-                <div class="card card-body">
-                    <h5 class="mb-3">Student payment form</h5>
-                    <div class="form-group">
-                        <label for="exampleSelectGender">plase select the Student</label>
-                          <select class="form-control" id="exampleSelectGender">
-                            <option>Select your option</option>
-                            <option>Student id_0001</option>
-                            <option>Student id_0002</option>
-                            <option>Student id_0003</option>
-                            <option>Student id_0004</option>
-                            <option>Student id_0005</option>
-                          </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleSelectGender">payment of Month</label>
-                            <input type="number" class="form-control"  placeholder="Your Months">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputName1">Due Ammount</label>
-                              <input type="number" class="form-control"  placeholder=" Due Ammount">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputName1">Ammount</label>
-                                <input type="number" class="form-control"  placeholder="Ammount">
-                              </div>
-                            <div class="form-group">
-                                <label for="exampleInputName1">payment date</label>
-                                <input type="date" class="form-control" placeholder="recive ammount">
-                              </div>
-                              <div class="btn">
-                                <button type="button" class="btn btn-primary btn-icon-text">
-                                    <i class="ti-file btn-icon-prepend"></i>
-                                    Pay
-                                  </button>
-                                  <button type="button" class="btn btn-success btn-icon-text">                                        
-                                    Cancel
-                                  </button>
-                              </div>
-                </div>
+          <div class="row">
+            <div class="card card-body">
+              <h5 class="mb-3">Student payment form</h5>
+              <div class="form-group">
+                <label for="exampleSelectGender">plase select the Student</label>
+                <select class="form-control" id="exampleSelectGender">
+                  <option>Select your option</option>
+                  <option>Student id_0001</option>
+                  <option>Student id_0002</option>
+                  <option>Student id_0003</option>
+                  <option>Student id_0004</option>
+                  <option>Student id_0005</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleSelectGender">payment of Month</label>
+                <input type="number" class="form-control" placeholder="Your Months">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName1">Due Ammount</label>
+                <input type="number" class="form-control" placeholder=" Due Ammount">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName1">Ammount</label>
+                <input type="number" class="form-control" placeholder="Ammount">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName1">payment date</label>
+                <input type="date" class="form-control" placeholder="recive ammount">
+              </div>
+              <div class="btn">
+                <button type="button" class="btn btn-primary btn-icon-text">
+                  <i class="ti-file btn-icon-prepend"></i>
+                  Pay
+                </button>
+                <button type="button" class="btn btn-success btn-icon-text">
+                  Cancel
+                </button>
+              </div>
             </div>
+          </div>
         </div>
         <!-- review section -->
         <div class="row">
@@ -608,7 +604,7 @@
           </div>
         </div>
 
-       
+
 
         <!-- dasboard design end here -->
 
